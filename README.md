@@ -61,18 +61,6 @@ luarocks install cutorch
 luarocks install cunn
 ```
 
-## OpenCL support (Optional)
-To enable GPU acceleration with OpenCL, you'll need to install the following Lua packages:
-- [cltorch](https://github.com/hughperkins/cltorch)
-- [clnn](https://github.com/hughperkins/clnn)
-
-You can install / update them by running:
-
-```bash
-luarocks install cltorch
-luarocks install clnn
-```
-
 # Usage
 To train a model and use it to generate new text, you'll need to follow three simple steps:
 
