@@ -75,8 +75,21 @@ Recently, they have been used for other sequential data such as source code. \ci
 
 \section{Introduction}
 \label{introduction}
+Natural language is inherently very well understood by humans. There are certain linguistics and structures associated with natural language which make it fluid and efficient. These repetitive and predictive properties of natural language make it easy to exploit via statistical language models. Although the actual semantics are very much different, source code is also repetitive and predictive. Some of this is constrained by what the compiler expects, and some of it is due to the way that humans construct the code. Regardless of why it is predictable, it has been shown that code is accommodating to the same kinds of language modeling as natural language  \citep{hindle2012naturalness}. 
+
+
+Recently, \cite{ray2015naturalness} showed that it is possible to predict buggy lines of code based on the entropy of the line with respect to a code language model. 
+
 
 \section{Related Work}
+
+\subsection{Bug Dection}
+For software bug detection, there are two main areas of research: bug prediction, and bug localization. \\
+Bug prediction, or statistical defect prediction, which is concerned with being able to predict whether or not there is a bug in a certain piece of code, has been widely studied in recent years \citep{atal2009systematic}. With the vast amount of archived repositories in websites such as github.com, there are many opportunities for finding bugs in code.\\
+Static bug finders, automatically find where in code a bug is located. There has been a wide array of recent work in this area \citep{rahman2014comparing}.
+
+\subsection{Natural Language Processing}
+
 
 \section{Methods}
 
