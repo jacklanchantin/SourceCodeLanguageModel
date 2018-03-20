@@ -1,4 +1,11 @@
 # Source Code Language Model (SCLM)
+We created a language model for source code in order to find buggy code. The intuition is that snippest of code with high Entropy according to the language model are likely to be buggy. 
+
+Authors:<br/>
+Jack Lanchantin (http://cs.virginia.edu/~jjl5sw/)<br/>
+Ji Gao (http://www.cs.virginia.edu/~jg6yd/)
+
+
 This code was modified from https://github.com/jcjohnson/torch-rnn
 
 
