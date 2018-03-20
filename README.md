@@ -1,5 +1,5 @@
 # Source Code Language Model (SCLM)
-We created a language model for source code in order to find buggy code. The intuition is that snippest of code with high Entropy according to the language model are likely to be buggy. 
+We created a language model for source code in order to find buggy code. The intuition is that snippest of code with high Entropy according to the language model are likely to be buggy. See the [project slides](https://github.com/jacklanchantin/SourceCodeLanguageModel/blob/master/SourceCodeLanguageModel.pdf) for more information. 
 
 Authors:<br/>
 Jack Lanchantin (http://cs.virginia.edu/~jjl5sw/)<br/>
